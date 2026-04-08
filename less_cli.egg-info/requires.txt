@@ -1,0 +1,14 @@
+chromadb>=0.3.21
+pypdf>=3.0.0
+spacy>=3.0.0
+
+[dev]
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+[test]
+pytest>=7.0.0
+pytest-cov>=4.0.0
