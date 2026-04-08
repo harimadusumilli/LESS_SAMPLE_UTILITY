@@ -45,3 +45,10 @@ htmlcov/
 # Distribution / packaging
 *.manifest
 *.spec
+# Keep our hand-crafted PyInstaller spec
+!less_search.spec
+
+# PyInstaller build artefacts
+dist/
+build/
+*.spec~
