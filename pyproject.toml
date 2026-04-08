@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "less-sample-utility"
+version = "0.1.0"
+description = "RAG-based semantic PDF search utility using ChromaDB"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "chromadb>=0.4.0",
+    "pypdf>=3.17.0",
+    "sentence-transformers>=2.2.2",
+    "click>=8.1.7",
+    "tqdm>=4.66.1",
+]
+
+[project.scripts]
+less-search = "less_sample_utility.cli:cli"
+
+[tool.pytest.ini_options]
+testpaths = ["less_sample_utility/tests"]
