@@ -5,7 +5,12 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import List, Optional
 
-from less_sample_utility.vector_store import VectorStore, DEFAULT_PERSIST_DIR, DEFAULT_COLLECTION_NAME, DEFAULT_EMBEDDING_MODEL
+from less_sample_utility.vector_store import (
+    DEFAULT_COLLECTION_NAME,
+    DEFAULT_EMBEDDING_MODEL,
+    DEFAULT_PERSIST_DIR,
+    VectorStore,
+)
 
 DEFAULT_N_RESULTS = 5
 

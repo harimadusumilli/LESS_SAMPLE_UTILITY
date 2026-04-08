@@ -4,6 +4,8 @@ from __future__ import annotations
 
 from unittest.mock import MagicMock, patch
 
+import pytest
+
 
 class TestSemanticSearch:
     @patch("less_sample_utility.search.VectorStore")
@@ -53,6 +55,3 @@ class TestSemanticSearch:
         searcher = SemanticSearch()
         results = searcher.search("anything")
         assert results == []
-
-
-import pytest
