@@ -1,0 +1,1 @@
+This project was built as a learning exercise using the Spec Kit, with assistance from GitHub Copilot. It implements a simple Retrieval-Augmented Generation (RAG) system using ChromaDB to chunk and store text extracted from PDFs, enabling semantic search based on meaning and context rather than traditional keyword matching.
