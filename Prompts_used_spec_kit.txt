@@ -1,6 +1,3 @@
-/speckit.specify Build an application that can help me organize my photos in separate photo albums. Albums are grouped by date and can be re-organized by dragging and dropping on the main page. Albums are never in other nested albums. Within each album, photos are previewed in a tile-like interface.
-
-
 /speckit.specify LESS will be a command-line tool with just two commands, at least to start.
 1. One command will index all PDF files in a given directory into the vector
 database.
@@ -9,9 +6,5 @@ relevant results.
 When a command is executed, the application should provide clear, step-by
 step feedback about what it’s doing. Once the task is complete, or if any errors
 occur, it should exit cleanly.
-
-
-
-/speckit.plan The application uses Vite with minimal number of libraries. Use vanilla HTML, CSS, and JavaScript as much as possible. Images are not uploaded anywhere and metadata is stored in a local SQLite database.
 
 /speckit.plan ChromaDB as the vector database because it’s lightweight, powerful and open source.Python as the language,PyPDF (pypdf on PyPI) to extract text from PDFs and spaCy (spacy.io) to parse the text and break it into meaningful sentence level chunks, instead of fixed-length token blocks and store it into ChromaDB vector database.
